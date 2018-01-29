@@ -1,5 +1,6 @@
 var express = require('express');
 var fs = require('fs');
+
 var app = express();
 app.set('views', __dirname + '/views');
 app.set('view engine', 'pug');
@@ -7,10 +8,11 @@ app.use(express.static('public'));
 
 var images = [];
 
-var fileFilter = function(file){
-    if(file.indexOf(".jpg")>-1) return true;
-    if(file.indexOf(".JPG")>-1) return true;
-    return false;
+var fileFilter = function(file) {
+    if (file.indexOf(".jpg") > -1) {
+        return true;
+    }
+    return file.indexOf(".JPG") > -1
 };
 
 /* scan Images and add them to array */
