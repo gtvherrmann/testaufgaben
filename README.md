@@ -21,6 +21,17 @@ NPM, Gulp, WebPack, Node, Express, Pug, Sass, Jquery, AMD
 * responsive layout
 * lazy loading
 
+## Installation
+
+* git clone https://github.com/gtvherrmann/testaufgaben.git
+* npm install
+* npm start
+* browser: http://localhost:3000/
+
+nach änderung von css oder js 
+* gulp sass (sass watcher: gulp watch) 
+* webpack ausführen: node ./node_modules/.bin/webpack
+
 ## Aufgaben
 
 * Ich möchste im Overlay zum nächsten und vorherigen Bild schalten können 
@@ -32,3 +43,4 @@ NPM, Gulp, WebPack, Node, Express, Pug, Sass, Jquery, AMD
 * Über einen Upload-Button möchte ich einzelne Bilder hochladen und dem Bildordner hinzufügen können.
 
 * Ich möchte über einen Button im Header einzelne Bilder löschen können. 
+
