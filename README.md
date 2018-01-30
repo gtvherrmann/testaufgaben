@@ -6,7 +6,7 @@ Alle Vorschaubilder sollen unabhängig von ihren Proportionen in gleicher Größ
 Auf mobilen Geräten (Auflösung < 480px) sollen alle Bilder untereinander dargestellt werden.
 Beim Klick auf ein Bild soll dieses in voller Größe als Overlay darstellt werden.
 Beim erneuten Klick schließt sich das Overlay wieder.
-Bilder Die beim initialen laden der Seite nicht sichtbar sind sollen erst geladen werden sobald diese sichtbar werden.
+Bilder die beim initialen Laden der Seite nicht sichtbar sind, sollen erst geladen werden, sobald diese sichtbar werden.
 
 ## Technologien/ Bibliotheken
 NPM, Gulp, WebPack, Node, Express, Pug, Sass, Jquery, AMD
@@ -14,7 +14,7 @@ NPM, Gulp, WebPack, Node, Express, Pug, Sass, Jquery, AMD
 
 ### Backend
 * Bereitstellung der Webinhalte
-* Scannen des Bildordners und Erstellen des Markups 
+* Einlesen des Bildordners und Erstellen des Markups 
 * automatisches Generieren von Vorschaubildern (Breite 480px)
 
 ### Frontend
@@ -34,11 +34,11 @@ nach änderung von css oder js
 
 ## Aufgaben
 
-* Ich möchste im Overlay zum nächsten und vorherigen Bild schalten können 
+* Ich möchte im Overlay zum nächsten und vorherigen Bild schalten können. 
 
 * Das Laden der Bilder im Overlay soll verbessert werden (responsive Bilder mittels weiterer Bildgrößen im Backend oder eine Ladeanimation)
 
-* Es soll ein zweiter Bildordner eingebunden werden. Ich möchste über eine Navigation im Header zwischen den Ordnern hin und her schalten können.
+* Es soll ein zweiter Bildordner eingebunden werden. Ich möchte über eine Navigation im Header zwischen den Ordnern hin und her schalten können.
 
 * Über einen Upload-Button möchte ich einzelne Bilder hochladen und dem Bildordner hinzufügen können.
 
