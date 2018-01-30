@@ -30,7 +30,7 @@ NPM, Gulp, WebPack, Node, Express, Pug, Sass, Jquery, AMD
 
 nach änderung von css oder js 
 * gulp sass (sass watcher: gulp watch) 
-* webpack ausführen: node ./node_modules/.bin/webpack
+* webpack ausführen: node node_modules/webpack/bin/webpack
 
 ## Aufgaben
 
