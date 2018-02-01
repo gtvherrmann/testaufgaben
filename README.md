@@ -29,8 +29,7 @@ NPM, Gulp, WebPack, Node, Express, Pug, Sass, Jquery, AMD
 * browser: http://localhost:3000/
 
 nach änderung von css oder js 
-* gulp sass (sass watcher: gulp watch) 
-* webpack ausführen: node node_modules/webpack/bin/webpack
+* npm run-script build
 
 ## Aufgaben
 
