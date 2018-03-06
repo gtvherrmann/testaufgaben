@@ -9,9 +9,10 @@
   "scripts": {
     "start": "node server.js",
     "webpack": "./node_modules/.bin/webpack",
-    "sass": "gulp sass",
-    "watch sass": "gulp watch",
-    "watch resize images": "gulp resize"
+    "build": "gulp sass && ./node_modules/.bin/webpack",
+    "watch_css":"gulp watch",
+    "watch_js": "./node_modules/.bin/webpack --watch",
+    "resize": "gulp resize"
   },
 
   "dependencies": {
@@ -19,7 +20,6 @@
     "express": "^4.16.2",
     "file-system": "^2.2.2",
     "pug": "^0.1.0",
-
     "jquery": "~3.2.1",
     "lazysizes": "~4.0.1"
   },
