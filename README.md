@@ -32,7 +32,7 @@ nach änderung von css oder js
 * npm run-script build
 
 watcher
-* npm run-script watch_css
+* npm run-script watch_sass
 * npm run-script watch_js
 
 ## Aufgaben

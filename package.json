@@ -8,11 +8,12 @@
 
   "scripts": {
     "start": "node server.js",
-    "webpack": "node_modules/.bin/webpack",
-    "build": "node_modules/.bin/gulp sass && node_modules/.bin/webpack",
-    "watch_css": "node_modules/.bin/gulp watch",
-    "watch_js": "node_modules/.bin/webpack --watch",
-    "resize": "node_modules/.bin/gulp resize"
+    "webpack": "./node_modules/.bin/webpack",
+    "sass": "./node_modules/.bin/gulp sass",
+    "build": "npm run sass && npm run webpack",
+    "watch_sass": "./node_modules/.bin/gulp watch",
+    "watch_js": "./node_modules/.bin/webpack --watch",
+    "resize": "./node_modules/.bin/gulp resize"
   },
 
   "dependencies": {
