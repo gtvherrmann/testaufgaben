@@ -35,6 +35,11 @@ watcher
 * npm run-script watch_sass
 * npm run-script watch_js
 
+image resize mittels gulp-image-resize
+* installation von GraphicsMagick oder ImageMagick notwendig
+* siehe: https://www.npmjs.com/package/gulp-image-resize?activeTab=readme
+
+
 ## Aufgaben
 
 * Ich möchte im Overlay zum nächsten und vorherigen Bild schalten können.
